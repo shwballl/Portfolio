@@ -27,7 +27,7 @@ const Contact = () => {
         
         try {
             // Replace with your actual email sending API endpoint
-            const response = await fetch('/api/send-email', {
+            const response = await fetch('http://127.0.0.1:8000/api/send-email/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
