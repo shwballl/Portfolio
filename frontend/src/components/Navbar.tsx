@@ -23,7 +23,14 @@ const Navbar = () => {
                                 <a href="#about" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium">
                                     About Me
                                 </a>
-                                <a href="#projects" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium">
+
+                                <a href="#expirence" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium">
+                                    Professional Experience
+                                </a>
+                                <a href="#education" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium">
+                                    Education
+                                </a>
+                                                                <a href="#projects" className="text-white hover:text-gray-200 px-3 py-2 text-sm font-medium">
                                     Projects
                                 </a>
                             </div>
@@ -31,7 +38,7 @@ const Navbar = () => {
                         <div className="flex items-center">
                             <div className="hidden md:ml-4 md:flex md:items-center md:space-x-4">
                                 <a href="#contact" className="bg-white text-indigo-600 px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white">
-                                    Contact
+                                    Contact Me
                                 </a>
                             </div>
                             <div className="flex items-center md:hidden">
@@ -70,7 +77,7 @@ const Navbar = () => {
 
             <div className="bg-gradient-to-r from-purple-800 to-indigo-700 h-screen flex items-center justify-center">
                 <div className="text-center text-white px-4">
-                    <h1 className="text-xl text-base font-extrabold text-indigo-200 ">Junior Backend Developer</h1>
+                    <h1 className="text-xl text-base font-extrabold text-indigo-200 ">Python Backend Developer</h1>
                     <h1 className="text-4xl font-extrabold sm:text-5xl md:text-6xl">
                         Hi, I'm Nazar Kuzia
                     </h1>

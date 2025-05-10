@@ -5,7 +5,7 @@ const About = () => {
         <>
             <section id="about" className="min-h-screen bg-gradient-to-r from-purple-800 to-indigo-700 text-white py-16 px-6 flex flex-col md:flex-row items-center justify-between gap-8">
                 <div className="w-full md:w-5/12 flex justify-center h-full md:justify-end">
-                    <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="About Me" className="w-72 h-96 md:w-80 lg:w-96 object-cover rounded-lg shadow-lg" />
+                    <img src="avatar.jpeg" alt="About Me" className="w-72 h-120 md:w-80 lg:w-96 object-cover rounded-lg shadow-lg" />
                 </div>
 
                 <div className="w-full md:w-7/12 text-center md:text-left relative">

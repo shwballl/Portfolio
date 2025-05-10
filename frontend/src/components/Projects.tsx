@@ -25,9 +25,16 @@ const Projects = () => {
                             {
                                 title: "Personal Portfolio Website",
                                 desc: "A sleek, responsive React portfolio site with Framer Motion animations and dynamic theming.",
-                                stack: ["React", "Tailwind", "Framer Motion"],
+                                stack: ["React", "Tailwind", "Framer Motion", "Docker"],
                                 link: "https://github.com/shwballl/portfolio",
                                 icon: "💻"
+                            },
+                            {
+                                title: "Report.ai",
+                                desc: "This is the ...",
+                                stack: ["React.js", "FastAPI", "Tailwindcss", "OpenAI", "LangChain", "Docker"],
+                                link: "https://github.com/shwballl/AI-WORDLY",
+                                icon: "🤖"
                             },
                             {
                                 title: "Trivial - freelance app",
@@ -35,11 +42,18 @@ const Projects = () => {
                                 stack: ["React.js", "Django REST", "Tailwind", "PostgreSQl", "Docker"],
                                 link: "https://github.com/shwballl/trivial",
                                 icon: "👷🏻‍♀️"
+                            },
+                            {
+                                title: "AI-WORDLY",
+                                desc: "This is the word guessing game that use AI to generate new words.",
+                                stack: ["React.js", "FastAPI", "Tailwindcss", "OpenAI", "Docker"],
+                                link: "https://github.com/shwballl/AI-WORDLY",
+                                icon: "🎮"
                             }
                         ].map((proj, idx) => (
                             <div 
                                 key={idx}
-                                className="group bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+                                className="group bg-white/90 w-70  backdrop-blur-sm rounded-2xl shadow-xl p-6 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
                                 data-aos="zoom-in"
                                 data-aos-delay={idx * 100}
                             >
@@ -62,7 +76,7 @@ const Projects = () => {
                                     href={proj.link} 
                                     className="inline-flex items-center text-indigo-600 font-medium text-sm hover:text-indigo-800 transition-colors"
                                 >
-                                    View Project
+                                    View Repo
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg>
